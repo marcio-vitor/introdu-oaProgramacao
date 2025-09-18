@@ -59,4 +59,7 @@ while opçaoMaiusc!="SAIR":
     print("5 - Par ou Impar")
     print("6 - Primo")
     print("7 - Fatorial")
+    opção=input("Digite a opção desejada ou <SAIR> para encerrar: ")
+    opçaoMaiusc=opção.upper()
+
 
