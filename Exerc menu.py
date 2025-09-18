@@ -42,7 +42,7 @@ while opçaoMaiusc!="SAIR":
         if c<=2:
             print("primo")
         else:
-            print("nn")
+            print("não e primo")
     if opção=="7":
         numero1=int(input("1 número "))
         fatorial = 1
@@ -61,5 +61,6 @@ while opçaoMaiusc!="SAIR":
     print("7 - Fatorial")
     opção=input("Digite a opção desejada ou <SAIR> para encerrar: ")
     opçaoMaiusc=opção.upper()
+
 
 
